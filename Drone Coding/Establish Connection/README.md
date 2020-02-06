@@ -6,7 +6,6 @@ TELLO IP: 192.168.10.1
 UDP Port: 8889
 *Send “command” to TELLO EDU via UDP port 8889 to initiate SDK mode after set up a UDP client on the PC, MAC, or mobile device.
 
-
 ** a) Install additional third-party software**
 Download and install additional third-party software to establish connection.
 
@@ -21,6 +20,5 @@ After established connection, run action commands to execute a series of actions
 
 **c) Establish connection based on Swift**
 Let TELLO EDU to execute a series of actions based on Swift by using Swift Playground app in App Store.
-
 
 
