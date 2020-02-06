@@ -5,7 +5,7 @@ This is a collection of Swift-based and Python-based sample code that interact w
 This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and Python2.7, including Plan Your Own flight, and other coming projects. 
 
 ### Establish Connection
-Before design your own flight path and control aircraft to execute a series of actions, you have to establish connection via WiFi between aircraft and devices. 
+Before design your own flight path and control aircraft to execute a series of actions, you have to establish connection via WiFi between the aircraft and devices. 
 
 ### TELLO EDU Specification
 **Aircraft**
