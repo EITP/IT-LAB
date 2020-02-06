@@ -8,6 +8,7 @@ UDP Port: 8889
 
 Send “command” to TELLO EDU via UDP port 8889 to initiate SDK mode after set up a UDP client on the PC, MAC, or mobile device.
 
+
 **a) Install additional third-party software**
 
 Download and install additional third-party software to establish connection.
