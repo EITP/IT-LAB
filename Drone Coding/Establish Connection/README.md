@@ -3,7 +3,9 @@ TELLO EDU need to be connected with a laptop or other related devices. You can c
 
 ### Connection Configuration
 TELLO IP: 192.168.10.1
+
 UDP Port: 8889
+
 Send “command” to TELLO EDU via UDP port 8889 to initiate SDK mode after set up a UDP client on the PC, MAC, or mobile device.
 
 **a) Install additional third-party software**
