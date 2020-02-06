@@ -20,7 +20,7 @@ https://packetsender.com
 
 **b) Establish connection based on python2.7**
 
-Let TELLO EDU to execute a series of actions based on python2.7 by running test.py
+Let TELLO EDU to execute a series of actions based on python2.7 by running tello.py
 After established connection, run action commands to execute a series of actions. 
 
 **c) Establish connection based on Swift**
