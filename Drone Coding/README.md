@@ -28,7 +28,7 @@ This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and 
 - Format: JPG(Photo); MP4(Video)
 - EIS: Yes
 
-### Following Tello EDU safety practices### 
+### Following Tello EDU safety practices
 The Tello EDU is best suited to indoor flight in a wide-open space. It is highly recommended that flying outdoors when there is no wind or a most, a light breeze. 
 
 If flying outdoors, please be kindly reminded that monitor the weather and fly in a closed environment such as a fenced garden to avoid an incident.
