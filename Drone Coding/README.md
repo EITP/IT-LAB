@@ -4,9 +4,6 @@ This is a collection of Swift-based and Python-based sample code that interact w
 ##  Project Description
 This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and Python2.7, including Plan Your Own flight, and other coming projects. 
 
-### Establish Connection
-Before design your own flight path and control aircraft to execute a series of actions, you have to establish connection via WiFi between the aircraft and devices. 
-
 ### TELLO EDU Specification
 **Aircraft**
 - Weight: 87g (Propellers and Battery Included)
@@ -30,6 +27,13 @@ Before design your own flight path and control aircraft to execute a series of a
 - Video: HD720P30
 - Format: JPG(Photo); MP4(Video)
 - EIS: Yes
+
+### Following Tello EDU safety practices### 
+The Tello EDU is best suited to indoor flight in a wide-open space. It is highly recommended that flying outdoors when there is no wind or a most, a light breeze. 
+
+If flying outdoors, please be kindly reminded that monitor the weather and fly in a closed environment such as a fenced garden to avoid an incident.
+
+If flying indoors, it is recommended using propeller guards for increased safety.
 
 ### Reference
 For more information about TELLO EDU, please feel free to visit the following links:
