@@ -26,6 +26,6 @@ Open a web browser, such as Google Chrome, enter the URL https://makecode.microb
 
 For more information about Micro: bit, please feel free to visit the following links:
 
-https://microbit.org/hk/code/
-https://makecode.microbit.org/
-https://www.youtube.com/watch?v=Wuza5WXiMkc
+- https://microbit.org/hk/code/
+- https://makecode.microbit.org/
+- https://www.youtube.com/watch?v=Wuza5WXiMkc
