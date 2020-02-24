@@ -6,7 +6,7 @@ This is a collection of Blocky-based and JavaScript-based that interact with mic
 
 ### Project Description
 
-This Toolkit contains sample programs based on Micro: bit, online Blocky and JavaScript editor, including your own Micro: bit Chip and other coming projects.
+This Toolkit contains sample programs based on Micro: bit, online Blocky and JavaScript editor, including your own micro: bit Chip and other coming projects.
 
 ### Establish connection
 
