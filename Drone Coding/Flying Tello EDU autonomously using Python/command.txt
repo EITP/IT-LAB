@@ -9,7 +9,6 @@ left 100
 cw 90
 forward 100
 
-takeoff
 curve 70 70 0 140 0 0 40
 
 land
