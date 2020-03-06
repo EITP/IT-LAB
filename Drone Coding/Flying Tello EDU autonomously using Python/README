@@ -1,6 +1,6 @@
 # Plan Your Own Flight-Python
 
-### Task 1
+###Task 1
 
 Place your TELLO EDU on a flat surface. Run the script to test the connection and use commands to tell TELLO EDU to take off and land.
 ```python
