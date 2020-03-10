@@ -9,12 +9,7 @@ Hardware - PC / Mac with Python 2.7 or above.
 Programming languages - Python/ Swift
 Connection
 
-`import socket`
-`import threading`
-import time
-from stats import Stats
-
-class Tello:
+`class Tello:
     def __init__(self):
         self.local_ip = ''
         self.local_port = 8889
