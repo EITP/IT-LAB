@@ -8,7 +8,7 @@ Hardware - PC / Mac with Python 2.7 or above.
 
 Programming languages - Python/ Swift
 Connection
-
+`
 import socket
 import threading
 import time
@@ -66,7 +66,7 @@ class Tello:
        
     def get_log(self):
         return self.log
-
+`
 
 ### Program Tello EDU
 1.	Open the browser and go to online editor program page at URL below
