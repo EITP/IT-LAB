@@ -10,7 +10,7 @@ Programming languages - Python/ Swift
 Connection
 
 `import socket`
-import threading
+`import threading`
 import time
 from stats import Stats
 
