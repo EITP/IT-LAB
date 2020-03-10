@@ -13,7 +13,7 @@ Connection
 class Tello:
     def __init__(self):
         self.local_ip = ''
-        self.local_port = 8889
+        self.local_port = xxxx
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.socket.bind((self.local_ip, self.local_port))
 
@@ -21,8 +21,8 @@ class Tello:
         self.receive_thread.daemon = True
         self.receive_thread.start()
 
-        self.tello_ip = '192.168.10.1'
-        self.tello_port = 8889
+        self.tello_ip = 'xxx.xxx.xx.x'
+        self.tello_port = xxxx
         self.tello_adderss = (self.tello_ip, self.tello_port)
         self.log = []
 
@@ -83,12 +83,12 @@ You can download the micro:bit-Flashing-Cross.hex file from source folder and pu
 class Tello : CustomStringConvertible {
     
     var description: String {
-        return "Tello:: IP: 192.168.10.1"
+        return "Tello:: IP: xxx.xxx.xx.x"
     }
     
-    let IP_ADDRESS = "192.168.10.1"
-    let UDP_CMD_PORT = 8889
-    let UDP_STATE_PORT = 8890
+    let IP_ADDRESS = "xxx.xxx.xx.x"
+    let UDP_CMD_PORT = xxxx
+    let UDP_STATE_PORT = xxxx
     let UDP_VS_PORT = 11111
     let TIME_BTW_COMMANDS = 0.5
     
@@ -101,6 +101,6 @@ class Tello : CustomStringConvertible {
     }
     
     convenience init() {
-        self.init(port: 8889)
+        self.init(port: xxxx)
     }
 ```
