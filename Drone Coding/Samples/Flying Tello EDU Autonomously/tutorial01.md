@@ -1,13 +1,12 @@
-# First micro:bit tutorial – Flashing Cross
+# First tutorial – Flying Tello EDU Autonomously
 
 ### Learning target
 
-Using micro:bit to turn on the LED lights-use Block and JavaScript to
-achieve.
+Flying Tello EDU autonomously in patterns by using Python
 
 ### Requirement
 Hardware - micro:bit Chip and PC with OS Windows 7 or above.
-Programming languages - JavaScript and Blockly
+Programming languages - Python/ Swift
 
 ### Tool
 Online Blockly and JavaScript editor https://makecode.microbit.org/#
