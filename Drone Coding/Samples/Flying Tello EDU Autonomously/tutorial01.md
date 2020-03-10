@@ -10,7 +10,7 @@ Programming languages - Python/ Swift
 Connection - micro:bit Chip and PC with OS Windows 7 or above.
 
 
-### Use Blockly Steps
+### Program Tello EDU
 1.	Open the browser and go to online editor program page at URL below
 Https://makecode.microbit.org/#
 2.	Add a new project
