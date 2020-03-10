@@ -2,12 +2,12 @@
 
 ### Learning target
 
-Flying Tello EDU autonomously in patterns by using Python / Swift
-
+Control and let Tello EDU flying autonomously by using programing languages.
 ### Requirement
 Hardware - PC / Mac with Python 2.7 or above.
+
 Programming languages - Python/ Swift
-Connection - micro:bit Chip and PC with OS Windows 7 or above.
+Connection
 
 
 ### Program Tello EDU
