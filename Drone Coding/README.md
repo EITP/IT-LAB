@@ -5,6 +5,7 @@ This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and 
 
 ### Project Description
 1. Flying Tello EDU Autonomously
+Place your TELLO EDU on a flat surface and program Tello EDU to fly in patterns.
 
 ### TELLO EDU Specification
 **Aircraft**
