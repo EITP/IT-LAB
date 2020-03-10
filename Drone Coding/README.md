@@ -6,8 +6,6 @@ This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and 
 ### Project Description
 - Flying Tello EDU Autonomously
 
-Place your TELLO EDU on a flat surface and program Tello EDU to fly in patterns.
-
 ### TELLO EDU Specification
 **Aircraft**
 - Weight: 87g (Propellers and Battery Included)
