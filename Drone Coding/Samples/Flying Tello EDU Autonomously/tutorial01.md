@@ -79,7 +79,28 @@ Https://makecode.microbit.org/#
 ### Quick Try
 You can download the micro:bit-Flashing-Cross.hex file from source folder and put it directly to your micro:bit Chip for trial.
 
-### Reference
-https://microbit.org/hk/code/
-https://makecode.microbit.org/
-
+```Swift
+class Tello : CustomStringConvertible {
+    
+    var description: String {
+        return "Tello:: IP: 192.168.10.1"
+    }
+    
+    let IP_ADDRESS = "192.168.10.1"
+    let UDP_CMD_PORT = 8889
+    let UDP_STATE_PORT = 8890
+    let UDP_VS_PORT = 11111
+    let TIME_BTW_COMMANDS = 0.5
+    
+    var state: STATE
+    var client: UDPClient?
+    
+    init(port: Int32) {
+        self.state = .disconnected
+        client = UDPClient(address: IP_ADDRESS, port: port)
+    }
+    
+    convenience init() {
+        self.init(port: 8889)
+    }
+```
