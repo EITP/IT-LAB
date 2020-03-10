@@ -1,14 +1,25 @@
 command
 takeoff
-
 forward 100
 right 100
 back 100
 left 100
-
+up 30
+forward 50
 cw 90
-forward 100
-
-curve 70 70 0 140 0 0 40
-
+forward 50
+cw 90
+forward 50
+cw 90
+forward 50
+cw 90
+curve 50 50 0 120 0 0 30
+mon
+mdirection 2
+go 0 0 70 30 m1
+delay 5
+jump 90 0 70 30 0 m1 m2
+delay 5
+jump 90 0 70 30 0 m2 m3
 land
+
