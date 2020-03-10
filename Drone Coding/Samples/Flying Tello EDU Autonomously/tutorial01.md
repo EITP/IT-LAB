@@ -10,7 +10,7 @@ Programming languages - Python/ Swift
 
 ### Program Tello EDU
 1.	Connecting to the airframe via a WiFi UDP port.
-2.	Setup connection
+2.	Configuration setup
 ```python
 class Tello:
     def __init__(self):
@@ -65,16 +65,6 @@ class Tello:
     def get_log(self):
         return self.log`
 ```
-3.	Click “Basic” section
-4.	Drag Show leds block component to forever block component in the program editing area
-5.	Spot a cross shape on the show leds block points of the component
-6.	Place another show leds block and leave it blank
-7.	Click the Download button to download the code (file format with .hex)
-8.	Find micro:bit root directory drive which is connected with your pc with USB cable.
-9.	Put the program you just downloaded into [MICROBIT] root directory drive
-
-### Quick Try
-You can download the micro:bit-Flashing-Cross.hex file from source folder and put it directly to your micro:bit Chip for trial.
 
 ```Swift
 class Tello : CustomStringConvertible {
@@ -101,3 +91,15 @@ class Tello : CustomStringConvertible {
         self.init(port: xxxx)
     }
 ```
+3.	Click “Basic” section
+4.	Drag Show leds block component to forever block component in the program editing area
+5.	Spot a cross shape on the show leds block points of the component
+6.	Place another show leds block and leave it blank
+7.	Click the Download button to download the code (file format with .hex)
+8.	Find micro:bit root directory drive which is connected with your pc with USB cable.
+9.	Put the program you just downloaded into [MICROBIT] root directory drive
+
+### Quick Try
+You can download the micro:bit-Flashing-Cross.hex file from source folder and put it directly to your micro:bit Chip for trial.
+
+
