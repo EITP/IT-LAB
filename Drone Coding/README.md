@@ -4,7 +4,8 @@ This is a collection of Swift-based and Python-based sample code that interact w
 This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and Python2.7. 
 
 ### Project Description
-1. Flying Tello EDU Autonomously
+- Flying Tello EDU Autonomously
+
 Place your TELLO EDU on a flat surface and program Tello EDU to fly in patterns.
 
 ### TELLO EDU Specification
