@@ -8,7 +8,8 @@ Hardware - PC / Mac with Python 2.7 or above.
 
 Programming languages - Python/ Swift
 Connection
-'import socket
+
+import socket
 import threading
 import time
 from stats import Stats
@@ -64,7 +65,7 @@ class Tello:
         pass
        
     def get_log(self):
-        return self.log'
+        return self.log
 
 
 ### Program Tello EDU
