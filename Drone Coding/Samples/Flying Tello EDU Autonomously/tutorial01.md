@@ -93,13 +93,11 @@ class Tello : CustomStringConvertible {
 ```
 3.	Design your flying pattern / path
 4.	Write the script based on the designed pattern / path
-5.	
-6.	Place another show leds block and leave it blank
-7.	Click the Download button to download the code (file format with .hex)
-8.	Find micro:bit root directory drive which is connected with your pc with USB cable.
-9.	Put the program you just downloaded into [MICROBIT] root directory drive
+5.	Place your TELLO EDU on a flat surface 
+6.	Program Tello EDU to fly in patterns.
+
 
 ### Quick Try
-You can download the micro:bit-Flashing-Cross.hex file from source folder and put it directly to your micro:bit Chip for trial.
+You can download the third-party software, Packetsender, to connect and control your Tello EDU.
 
 
