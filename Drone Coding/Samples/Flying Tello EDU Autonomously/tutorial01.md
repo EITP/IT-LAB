@@ -9,7 +9,7 @@ Hardware - PC / Mac with Python 2.7 or above.
 Programming languages - Python/ Swift
 Connection
 
-`import socket
+`import socket`
 import threading
 import time
 from stats import Stats
