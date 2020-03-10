@@ -10,7 +10,7 @@ Programming languages - Python/ Swift
 
 ### Program Tello EDU
 1.	Connecting to the airframe via a WiFi UDP port.
-2.	Configuration setup
+2.	Configuration setup based on network information
 ```python
 class Tello:
     def __init__(self):
@@ -91,9 +91,9 @@ class Tello : CustomStringConvertible {
         self.init(port: xxxx)
     }
 ```
-3.	Click “Basic” section
-4.	Drag Show leds block component to forever block component in the program editing area
-5.	Spot a cross shape on the show leds block points of the component
+3.	Design your flying pattern / path
+4.	Write the script based on the designed pattern / path
+5.	
 6.	Place another show leds block and leave it blank
 7.	Click the Download button to download the code (file format with .hex)
 8.	Find micro:bit root directory drive which is connected with your pc with USB cable.
