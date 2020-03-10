@@ -76,7 +76,7 @@ class Tello : CustomStringConvertible {
     let IP_ADDRESS = "xxx.xxx.xx.x"
     let UDP_CMD_PORT = xxxx
     let UDP_STATE_PORT = xxxx
-    let UDP_VS_PORT = 11111
+    let UDP_VS_PORT = xxxxx
     let TIME_BTW_COMMANDS = 0.5
     
     var state: STATE
