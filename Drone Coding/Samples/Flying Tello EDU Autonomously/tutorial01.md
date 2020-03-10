@@ -2,15 +2,13 @@
 
 ### Learning target
 
-Flying Tello EDU autonomously in patterns by using Python
+Flying Tello EDU autonomously in patterns by using Python / Swift
 
 ### Requirement
-Hardware - micro:bit Chip and PC with OS Windows 7 or above.
+Hardware - PC / Mac with Python 2.7 or above.
 Programming languages - Python/ Swift
+Connection - micro:bit Chip and PC with OS Windows 7 or above.
 
-### Tool
-Online Blockly and JavaScript editor https://makecode.microbit.org/#
-Micro-USB Cable (Connect it to computer and micro:bit)
 
 ### Use Blockly Steps
 1.	Open the browser and go to online editor program page at URL below
