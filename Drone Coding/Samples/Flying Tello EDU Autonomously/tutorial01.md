@@ -7,8 +7,10 @@ Control and let Tello EDU flying autonomously by using programing languages.
 Hardware - PC / Mac with Python 2.7 or above.
 
 Programming languages - Python/ Swift
-Connection
 
+### Program Tello EDU
+1.	Connecting to the airframe via a WiFi UDP port.
+2.	Setup connection
 ```python
 class Tello:
     def __init__(self):
@@ -63,11 +65,6 @@ class Tello:
     def get_log(self):
         return self.log`
 ```
-
-### Program Tello EDU
-1.	Open the browser and go to online editor program page at URL below
-Https://makecode.microbit.org/#
-2.	Add a new project
 3.	Click “Basic” section
 4.	Drag Show leds block component to forever block component in the program editing area
 5.	Spot a cross shape on the show leds block points of the component
