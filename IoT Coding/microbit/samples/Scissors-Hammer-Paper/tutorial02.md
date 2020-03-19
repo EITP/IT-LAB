@@ -1,21 +1,21 @@
-#First micro:bit tutorial – Scissors, Hammer, Paper
+# First micro:bit tutorial – Scissors, Hammer, Paper
 
-###Learning target
+### Learning target
 
 Using micro:bit accelerometer and the screen to build a game
 
-###Requirement
+### Requirement
 Hardware
 micro:bit Chip and PC with OS Windows 7 or above.
 
 Programming languages 
 JavaScript and Blockly
 
-###Tool
+### Tool
 Online Blockly and JavaScript editor https://makecode.microbit.org/#
 Micro-USB Cable (Connect it to computer and micro:bit)
 
-###Use Blockly Steps
+### Use Blockly Steps
 1.	Open the browser and go to online editor program page at URL below
 Https://makecode.microbit.org/# 
 2.	Go to Input section, drag a “shake Block” to run code when you shake the mirco:bit.
@@ -30,9 +30,9 @@ Https://makecode.microbit.org/#
 11.	Get one more show leds block and put it in the else if. Make a picture of a Paper in the LEDs.
 12.	Click on the SHAKE button in the simulator and check to see that each image is showing up.
 
-###Quick Try
+### Quick Try
 You can download the micro:bit-Cross-Hammer-Paper.hex file from source folder and put it directly to your micro:bit Chip for trial.
 
-###Reference
+### Reference
 https://microbit.org/hk/code/
 https://makecode.microbit.org/
