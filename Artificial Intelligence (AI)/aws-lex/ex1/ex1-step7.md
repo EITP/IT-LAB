@@ -28,3 +28,6 @@ You can delete only resources that are not in use. In general, you should delete
 1. To delete the slot type, choose **Delete**, and then choose **Continue** in the confirmation dialog box.
 
 You have removed all of the Amazon Lex resources that you created and cleaned up your account. If desired, you can use the [Lambda console](https://console.aws.amazon.com/lambda) to delete the Lambda function used in this exercise.
+
+**Video Reference**  
+https://youtu.be/8o41kWg5bhs
