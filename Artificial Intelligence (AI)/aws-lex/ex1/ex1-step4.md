@@ -16,5 +16,8 @@ Each utterance that you add provides Amazon Lex with more information about how 
 1. Test your bot to confirm that it recognized the new utterance . In the test window, type "I want to order flowers." Amazon Lex recognizes the phrase and responds with "What type of flowers would you like to order?".
 ![The intent editor recognizes the new utterance.](../images/gs1-140.png)
 
+**Video Reference**  
+https://youtu.be/T-26JIFnN4Q
+
 **Next Step**  
 [Step 5 (Optional): Updating Utterances](ex1-step5.md)
