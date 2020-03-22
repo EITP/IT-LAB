@@ -33,5 +33,8 @@ You return to the Amazon Lex console and add the Lambda function as the code hoo
 
    1. Verify that the Lambda function successfully executed.
 
+**Video Reference**  
+https://youtu.be/MFdLhjaDpJw
+
 **Next Step**  
 [Step 3: Add the Lambda Function as Code Hook](ex1-step3.md)
