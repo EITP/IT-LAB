@@ -32,5 +32,9 @@ You can see utterances for different versions of your bot. To change the version
 
 1. To verify that your bot recognizes the new utterances, use the **Test Bot** pane.
 
+
+**Video Reference**  
+https://youtu.be/Uz9fboyZLPA
+
 **Next Step**  
 [Step 6 (Optional): Using a Response Card](ex1-step6.md)
