@@ -36,5 +36,9 @@ To create and test a bot with a response card:
 
    1. To publish a bot version, choose **Publish**. Specify BETA as an alias that points to the bot version.
    
+   
+**Video Reference**  
+https://youtu.be/AoRPgVZZdGA
+
 **Next Step**  
 [Step 7 (Optional): Clean Up](ex1-step7.md)
