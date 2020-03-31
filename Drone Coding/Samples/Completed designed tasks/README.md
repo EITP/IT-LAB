@@ -38,13 +38,14 @@ In order to tell Tello to fly up and down, as you need to specify the distance. 
 
 Before you tell Tello to fly up, make sure there is enough space above it. However, you can tell Tello to fly down as far as you want without worrying about crashing. Tello’s Downward Positioning Sensor keeps monitoring the distance below, and will stop flying when the minimum distance is reached. After fly up and down, you can tell Tello to fly forward and backward by using flyForward(cm: Int) and flyBackward(cm: Int). 
 
-Fly Tello around the object from the side
+### Fly Tello around the object from the side
 After you have learned essential commands, let it fly around the object from the side as daily inspections for space station. Firstly, gather information from Tello’s botton sensor and don’t worry if you don’t get it right the first time. This is your chance to experiment and explore.
 Tips
 1.	Remember to enter SDK mode
 2.	Fly forward until you are close to the object, fly up and fly forward to cross the whole length of object then fly backward and fly down.
 3.	Fly along the path as indicated
-Change its orientation and course 
+
+### Change its orientation and course 
 To change its orientation, you may use turnLeft(degree: Int) and turnRight(degree: 
 Int) commands. 
 
