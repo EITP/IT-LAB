@@ -18,7 +18,6 @@ class ViewController: UIViewController {
             break
         case .command:
             tello.takeOff()
-            takeOff()
             flyForward(cm: 40)
             for i in 0..<3
             {
