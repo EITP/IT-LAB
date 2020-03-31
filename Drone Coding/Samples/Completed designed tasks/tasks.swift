@@ -6,8 +6,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var WiFiImageView: UIImageView!
     
     let tello = Tello()
-
-    // MARK: - IBActions
     
     @IBAction func takeOffTapped(_ sender: UIButton) {
         switch tello.state {
@@ -36,7 +34,6 @@ class ViewController: UIViewController {
     @IBAction func settingsTapped(_ sender: UIButton) {
     }
     
-    // MARK: - View Management
     
     func showNoWiFiAlert() {
         let alert = UIAlertController(title: "Not Connected to Tello WiFi", message: "In order to control the Tello you must be connected to its WiFi network. Turn on the Tello and then go to Settings -> WiFi to connect.", preferredStyle: .alert)
