@@ -1,4 +1,4 @@
-# First tutorial – Flying Tello EDU Autonomously
+# Tutorial – Flying Tello EDU Autonomously
 
 ### Learning target
 
