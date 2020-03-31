@@ -16,7 +16,7 @@ To solve complex problems and write high-performance, readable code, you may use
 *	Protocols, such as OptionSet, that you use to provide implementations that would otherwise require boilerplate code.
 
 ### Explore the Standard Library
-Experiment with Swift standard library types and learn high-level concepts using visualizations and practical examples. Learn how the Swift standard library uses protocols and generics to express powerful constraints. Download the playground below to get started.
+Experiment with Swift standard library types and learn high-level concepts using visualizations and practical examples. Learn how the Swift standard library uses protocols and generics to express powerful constraints. See the link below to get started.
 
-[Swift Standard Library.playground](https://developer.apple.com/sample-code/swift/downloads/standard-library.zip)
+[Swift playground](https://swift.org/)
 
