@@ -18,6 +18,46 @@ class ViewController: UIViewController {
             break
         case .command:
             tello.takeOff()
+            takeOff()
+            flyForward(cm: 40)
+            for i in 0..<3
+            {
+            turnRight(degree: 90)
+            flyForward(cm: 40)
+            }
+            turnRight(degree: 90)
+            land()
+
+            takeOff()
+            turnRight(degree: 90)
+            flyForward(cm: 90)
+            turnLeft(degree: 90)
+
+            flyForward(cm: 180)
+            turnLeft(degree: 90)
+            flyForward(cm: 60)
+
+            turnLeft(degree: 90)
+            flyForward(cm: 120)
+            turnRight(degree: 90)
+
+            flyForward(cm: 60)
+            turnRight(degree: 90)
+            flyForward(cm: 120)
+
+            turnLeft(degree: 90)
+            flyForward(cm: 60)
+            turnLeft(degree: 90)
+
+            flyForward(cm: 180)
+            turnLeft(degree: 90)
+            flyForward(cm: 90)
+
+            turnLeft(degree: 90)
+
+            land()
+
+
             break
         }
     }
