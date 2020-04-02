@@ -1,0 +1,8 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="start" id="!JODDDpDPuBO86x3{r0}" deletable="false" x="-86" y="-348">
+    <statement name="do">
+      <block type="Left_flank_kick" id="^E*Y}Qql7R)XX0RlzD1u"></block>
+    </statement>
+  </block>
+  <block type="Right_move" id="{VZEb5N|}YaA8iJV)D?I" x="0" y="-130"></block>
+</xml>
