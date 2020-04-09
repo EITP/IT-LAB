@@ -14,6 +14,7 @@ Below examples are designed for students to get familiar with Amazon Lex, simply
 
 ### Examples
 ### [1 : Create an Amazon Lex Bot Using a Blueprint (Order Flowers)](./ex1/README.md)
+### [2 : Create a Custom Amazon Lex Bot (Order Pizza)](./ex2/README.md)
 
 
 ### Restrictions
