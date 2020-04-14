@@ -112,6 +112,8 @@ Configure error handling for the `PizzaOrderingBot` bot.
 
    Leave the defaults.
 
+**Video Reference**  
+https://youtu.be/kZ3U9kLlOeE
 
 **Next Step**  
 [Step 3 : Build and Test the Bot](ex2-step3.md)
