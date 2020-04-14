@@ -137,7 +137,7 @@ In the result box, choose **Details**. The console displays the following output
 }
 ```
 
-**Video Reference**
+**Video Reference**  
 https://youtu.be/hx0kDJcCzFs
 
 **Next Step**  
