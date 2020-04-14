@@ -7,3 +7,6 @@ In this exercise, you use the Amazon Lex console to create a custom bot that ord
 + [Step 2: Create a Bot](ex2-step2.md)
 + [Step 3: Build and Test the Bot](ex2-step3.md)
 + [Step 4 (Optional): Clean up](ex2-step4.md)
+
+**Video Playlist**  
+https://www.youtube.com/playlist?list=PL7dtPnQuxetLKc073zuUxtdnlVaVty-_b
