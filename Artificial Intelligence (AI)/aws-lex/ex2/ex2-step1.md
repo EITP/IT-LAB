@@ -137,5 +137,8 @@ In the result box, choose **Details**. The console displays the following output
 }
 ```
 
+**Video Reference**
+https://youtu.be/hx0kDJcCzFs
+
 **Next Step**  
 [Step 2: Create a Bot](ex2-step2.md)
