@@ -54,7 +54,7 @@ Create the slot types, or parameter values, that the `OrderPizza` intent uses.
    + **Slot type name** – Crusts
    + **Description** – Available crusts
    + Choose **Restrict to Slot values and Synonyms**
-   + **Value** – Type **thick**. Press tab and in the **Synonym** field type **stuffed**. Choose the plus sign (+). Type **thin** and then choose the plus sign (+) again.
+   + **Value** – Type **thick**. Press tab and in the **Synonym** field type **stuffed**. Choose the plus sign (+). Type **thin** and **unstuffed** then choose the plus sign (+) again.
 
    The dialog should look like this:  
 ![[]](../images/gs1-25a.png)
