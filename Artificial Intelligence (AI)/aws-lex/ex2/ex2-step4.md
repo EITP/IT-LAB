@@ -32,3 +32,6 @@ Delete resources in the following order:
 1. Repeat [Step 8](#chooseSlots) and [Step 9](#deleteSlots) for the `Sizes` and `PizzaKind` slot types.
 
 You have removed all of the resources that you created and cleaned up your account.
+
+**Video Reference**  
+https://youtu.be/IIkkNZegyx8
