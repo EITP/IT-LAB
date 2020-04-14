@@ -46,5 +46,8 @@ The contents of the pane show you the current state of the operation.
 
 ![The console's response inspection pane.](../images/gs1-116.png)
 
+**Video Reference**  
+https://youtu.be/OnSAJHBoqcM
+
 **Next Step**  
 [Step 4 (Optional): Clean up](ex2-step4.md)
