@@ -38,7 +38,7 @@ If flying outdoors, please be kindly reminded that monitor the weather and fly i
 If flying indoors, it is recommended using propeller guards for increased safety.
 
 ### Reference Playlist
-https://www.youtube.com/playlist?list=PL7dtPnQuxetIpXJcnwiNVNuTUrwFzPA6p
+https://www.youtube.com/watch?v=3os4FI_gAkQ&list=PL7dtPnQuxetIpXJcnwiNVNuTUrwFzPA6p
 
 ### Reference
 For more information about TELLO EDU, please feel free to visit the following links:
