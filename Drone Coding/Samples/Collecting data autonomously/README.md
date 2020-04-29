@@ -3,19 +3,19 @@
 ### Overview
 Apart from other toy drones, Tello EDU have excellent flight performance. Specifically, Tello EDU is one of drones at the moment to feature optical and infrared sensors that help in positioning and altitude hold. Under optimum lighting conditions, the downward positioning sensor helps the Tello EDU “see” the ground and maintain its flight position while the two infrared sensors help it accurately maintain its altitude.
 
-Downward positioning sensor of Tello EDU has the ability to recognize the designed pattern, you can also recognize a person’s face. By knowing the pattern, Tello can know exactly Mission Pad's ID and its coordinates.
+Downward positioning sensor of Tello EDU has the ability to recognize the designed pattern, you can also recognize a person’s face. By knowing the pattern, Tello can know exactly mission pad's ID and its coordinates.
 
-The Mission Pad is used with the Tello EDU when using the Tello SDK 2.0 for programing. The Tello EDU uses its camera to detect the Mission Pad ID and executes commands.
+The mission pad is used with the Tello EDU when using the Tello SDK 2.0 for programing. The Tello EDU uses its camera to detect the mission pad ID and executes commands.
 
-There are 4 double-sided Mission Pads in the Tello EDU package with each side containing a unique pattern made up of planets, a rocket, and an ID.
+There are 4 double-sided mission pads in the Tello EDU package with each side containing a unique pattern made up of planets, a rocket, and an ID.
 
-Rocket indicates the forward direction of the X axis. The ID is a number between 1 and 8 that is printed on each side of the Mission Pad. Planets display different patterns indicating the ID and coordinates, which the Tello EDU can recognize.
+Rocket indicates the forward direction of the X axis. The ID is a number between 1 and 8 that is printed on each side of the mission pad. Planets display different patterns indicating the ID and coordinates, which the Tello EDU can recognize.
 
-To get Mission Pad's ID and Coordinates, you need to use the Mission Pad provided. The Mission Pad’s ID will be used as the ID, and when Tello is flying above a Mission Pad, Tello’s downward positioning sensor can identify its coordinates in terms of the Mission Pad’s coordinates system.
+To get mission pad's ID and Coordinates, you need to use the mission pad provided. The mission pad’s ID will be used as the ID, and when Tello is flying above a mission pad, Tello’s downward positioning sensor can identify its coordinates in terms of the mission pad’s coordinates system.
 
-Like a camera, Tello downward positioning sensor has a limited sensing range. When Tello has flew too far or too high from a Mission Pad, Tello may not be able to find and recognize the Mission Pad, hence cannot identify the ID and the coordinates. 
+Like a camera, Tello downward positioning sensor has a limited sensing range. When Tello has flew too far or too high from a mission pad, Tello may not be able to find and recognize the mission pad, hence cannot identify the ID and the coordinates. 
 
-To get the best recognition result of the Mission Pad, It is recommended to fly Tello with a height range from 20cm to 100cm, and within a horizontal square above the Mission Pad, with a side length of 60 cm
+To get the best recognition result of the mission pad, It is recommended to fly Tello with a height range from 20cm to 100cm, and within a horizontal square above the mission pad, with a side length of 60 cm
 
 
 ## Tutorial 
@@ -24,8 +24,8 @@ To get the best recognition result of the Mission Pad, It is recommended to fly 
 Use Swift commands to tell Tello to take off and land
 To begin with, you need to first take off. You will write Swift commands to tell Tello to take off and land. When using takeOff() and land(), you don’t have to put anything insides the parentheses.
 
-1.	Put a Mission Pad on a flat surface
-2.  Place your Tello on a Mission Pad
+1.	Put a mission pad on a flat surface
+2.  Place your Tello on a mission pad
 2.	Make sure the battery level is above 20%
 3.	Take off and use getPadID() to get the galaxy ID, and use getPadPos() to get Tello's coordinates
 4.	Get the current coordinates, and then land
@@ -41,6 +41,6 @@ After you have learned essential commands, let try to read the Coordinates. Firs
 Tips: Remember to enter SDK mode
 
 ### Fly to Given Coordinate 
-By knowing the ID, and the coordinates of the destination, you can program Tello to fly directly to it. Here we use a slightly different version of flyLine(x: Int, y: Int, z: Int, id:int). by giving the ID in the end, Tello will fly in the Mission Pad's coordinate system, insteed of flying in its own coordinates. Without a Mission Pad under it, Tello's current coordinate will always reset to 0 when it's hovering.
+By knowing the ID, and the coordinates of the destination, you can program Tello to fly directly to it. Here we use a slightly different version of flyLine(x: Int, y: Int, z: Int, id:int). by giving the ID in the end, Tello will fly in the mission pad's coordinate system, insteed of flying in its own coordinates. Without a mission pad under it, Tello's current coordinate will always reset to 0 when it's hovering.
 
-Tips: Fly a straight line to point (x:30, y:0, z:100, id:Int). Remember to use the ID of the Mission Pad.
+Tips: Fly a straight line to point (x:30, y:0, z:100, id:Int). Remember to use the ID of the mission pad.
