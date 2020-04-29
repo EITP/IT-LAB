@@ -35,7 +35,7 @@ Remark: In order to tell Tello to fly up and down, as you need to specify the di
 
 Before you tell Tello to fly up, make sure there is enough space above it. However, you can tell Tello to fly down as far as you want without worrying about crashing. Tello’s Downward Positioning Sensor keeps monitoring the distance below, and will stop flying when the minimum distance is reached. After fly up and down, you can tell Tello to fly forward and backward by using flyForward(cm: Int) and flyBackward(cm: Int). 
 
-### Reading the Coordinates and 
+### Reading the Coordinates  
 After you have learned essential commands, let try to read the Coordinates. Firstly, gather information from Tello’s botton sensor and don’t worry if you don’t get it right the first time. This is your chance to experiment and explore.
 
 Tips
