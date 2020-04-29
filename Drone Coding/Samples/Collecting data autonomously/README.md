@@ -5,7 +5,13 @@ Apart from other toy drones, Tello EDU have excellent flight performance. Specif
 
 Downward positioning sensor of Tello EDU has the ability to recognize the designed pattern, you can also recognize a person’s face. By knowing the pattern, Tello can know exactly Mission Pad's ID and its coordinates.
 
-To get Tello’s Galaxy ID and Coordinates, you need to use the Mission Pad provided. The Mission Pad’s ID will be used as the Galaxy ID, and when Tello is flying above a Mission Pad, Tello’s downward positioning sensor can identify its coordinates in terms of the Mission Pad’s coordinates system.
+The Mission Pad is used with the Tello EDU when using the Tello SDK 2.0 for programing. The Tello EDU uses its camera to detect the Mission Pad ID and executes commands.
+
+There are 4 double-sided Mission Pads in the Tello EDU package with each side containing a unique pattern made up of planets, a rocket, and an ID.
+
+Rocket indicates the forward direction of the X axis. The ID is a number between 1 and 8 that is printed on each side of the Mission Pad. Planets display different patterns indicating the ID and coordinates, which the Tello EDU can recognize.
+
+To get Mission Pad's ID and Coordinates, you need to use the Mission Pad provided. The Mission Pad’s ID will be used as the Galaxy ID, and when Tello is flying above a Mission Pad, Tello’s downward positioning sensor can identify its coordinates in terms of the Mission Pad’s coordinates system.
 
 Like a camera, Tello downward positioning sensor has a limited sensing range. When Tello has flew too far or too high from a Mission Pad, Tello may not be able to find and recognize the Mission Pad, hence cannot identify the Galaxy ID and the coordinates. 
 
