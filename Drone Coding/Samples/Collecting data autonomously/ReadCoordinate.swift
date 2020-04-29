@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // Check if connected to Tello WiFi
+
         let ssidArray = currentSSID()
         
         if connectedToSSID(ssidArray: ssidArray, SSID: "TELLO") {
