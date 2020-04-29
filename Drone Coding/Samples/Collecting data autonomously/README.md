@@ -21,7 +21,7 @@ To get the best recognition result of the mission pad, It is recommended to fly 
 ## Tutorial 
 
 ### Precondition:
-Use Swift commands to tell Tello to take off and land
+Use Swift commands to tell Tello to take off and land.
 To begin with, you need to first take off. You will write Swift commands to tell Tello to take off and land. When using takeOff() and land(), you don’t have to put anything insides the parentheses.
 
 1.	Put a mission pad on a flat surface
