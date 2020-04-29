@@ -31,19 +31,20 @@ To begin with, you need to first take off. You will write Swift commands to tell
 4.	Get the current coordinates, and then land
 6.	Tap Run My Code
 
-In order to tell Tello to fly up and down, as you need to specify the distance. Tello measures flying distance in centimeters, so flyUp(cm: 100) means fly up 100 cm from the current height. Here, the distance is relative to the current position, so to use flyUp(cm :100) again Tello will fly up 100cm again.
+Remark: In order to tell Tello to fly up and down, as you need to specify the distance. Tello measures flying distance in centimeters, so flyUp(cm: 100) means fly up 100 cm from the current height. Here, the distance is relative to the current position, so to use flyUp(cm :100) again Tello will fly up 100cm again.
 
 Before you tell Tello to fly up, make sure there is enough space above it. However, you can tell Tello to fly down as far as you want without worrying about crashing. Tello’s Downward Positioning Sensor keeps monitoring the distance below, and will stop flying when the minimum distance is reached. After fly up and down, you can tell Tello to fly forward and backward by using flyForward(cm: Int) and flyBackward(cm: Int). 
 
 ### Reading the Coordinates and 
-After you have learned essential commands, let it fly around the object from the side as daily inspections for space station. Firstly, gather information from Tello’s botton sensor and don’t worry if you don’t get it right the first time. This is your chance to experiment and explore.
+After you have learned essential commands, let try to read the Coordinates. Firstly, gather information from Tello’s botton sensor and don’t worry if you don’t get it right the first time. This is your chance to experiment and explore.
+
 Tips
 1.	Remember to enter SDK mode
 2.	Fly forward until you are close to the object, fly up and fly forward to cross the whole length of object then fly backward and fly down.
 3.	Fly along the path as indicated
 
 ### Fly to Given Coordinate 
-To change its orientation, you may use turnLeft(degree: Int) and turnRight(degree: 
-Int) commands. 
+By knowing the ID, and the coordinates of the destination, you can program Tello to fly directly to it. Here we use a slightly different version of flyLine(x: Int, y: Int, z: Int, id:int). by giving the ID in the end, Tello will fly in the Mission Pad's coordinate system, insteed of flying in its own coordinates. Without a Mission Pad under it, Tello's current coordinate will always reset to 0 when it's hovering.
 
-Degree insides the parentheses indicate much you want Tello to turn. You can choose between 0 to 3600. If you choose 3600, Tello will complete 10 full turns. 
+Tips
+1.	Fly a straight line to point (x:30, y:0, z:100, id:Int). Remember to use the ID of the Mission Pad.
