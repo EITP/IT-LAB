@@ -1,9 +1,9 @@
 # Collecting data autonomously
 
 ### Overview
-Flight performance is one of the things that sets the Tello apart from other toy drones. Specifically, the Tello is one of few toy drones at the moment to feature optical and infrared sensors that help in positioning and altitude hold. Under optimum lighting conditions, the downward-facing optical sensor helps the Tello “see” the ground and maintain its flight position while the two infrared sensors help it accurately maintain its altitude.
+Apart from other toy drones, Tello EDU have excellent flight performance. Specifically, Tello EDU is one of drones at the moment to feature optical and infrared sensors that help in positioning and altitude hold. Under optimum lighting conditions, the downward positioning sensor helps the Tello EDU “see” the ground and maintain its flight position while the two infrared sensors help it accurately maintain its altitude.
 
-Tello’s downward positioning sensor has the ability to recognize the designed pattern, you can also recognize a person’s face. By knowing the pattern, Tello can know exactly which galaxy it is in (Galaxy ID) and where it is (Coordinates).
+Downward positioning sensor of Tello EDU has the ability to recognize the designed pattern, you can also recognize a person’s face. By knowing the pattern, Tello can know exactly Mission Pad's ID and its coordinates.
 
 To get Tello’s Galaxy ID and Coordinates, you need to use the Mission Pad provided. The Mission Pad’s ID will be used as the Galaxy ID, and when Tello is flying above a Mission Pad, Tello’s downward positioning sensor can identify its coordinates in terms of the Mission Pad’s coordinates system.
 
