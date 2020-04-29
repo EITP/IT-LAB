@@ -11,9 +11,9 @@ There are 4 double-sided Mission Pads in the Tello EDU package with each side co
 
 Rocket indicates the forward direction of the X axis. The ID is a number between 1 and 8 that is printed on each side of the Mission Pad. Planets display different patterns indicating the ID and coordinates, which the Tello EDU can recognize.
 
-To get Mission Pad's ID and Coordinates, you need to use the Mission Pad provided. The Mission Pad’s ID will be used as the Galaxy ID, and when Tello is flying above a Mission Pad, Tello’s downward positioning sensor can identify its coordinates in terms of the Mission Pad’s coordinates system.
+To get Mission Pad's ID and Coordinates, you need to use the Mission Pad provided. The Mission Pad’s ID will be used as the ID, and when Tello is flying above a Mission Pad, Tello’s downward positioning sensor can identify its coordinates in terms of the Mission Pad’s coordinates system.
 
-Like a camera, Tello downward positioning sensor has a limited sensing range. When Tello has flew too far or too high from a Mission Pad, Tello may not be able to find and recognize the Mission Pad, hence cannot identify the Galaxy ID and the coordinates. 
+Like a camera, Tello downward positioning sensor has a limited sensing range. When Tello has flew too far or too high from a Mission Pad, Tello may not be able to find and recognize the Mission Pad, hence cannot identify the ID and the coordinates. 
 
 To get the best recognition result of the Mission Pad, It is recommended to fly Tello with a height range from 20cm to 100cm, and within a horizontal square above the Mission Pad, with a side length of 60 cm
 
