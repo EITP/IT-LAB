@@ -38,13 +38,9 @@ Before you tell Tello to fly up, make sure there is enough space above it. Howev
 ### Reading the Coordinates  
 After you have learned essential commands, let try to read the Coordinates. Firstly, gather information from Tello’s botton sensor and don’t worry if you don’t get it right the first time. This is your chance to experiment and explore.
 
-Tips
-1.	Remember to enter SDK mode
-2.	Fly forward until you are close to the object, fly up and fly forward to cross the whole length of object then fly backward and fly down.
-3.	Fly along the path as indicated
+Tips: Remember to enter SDK mode
 
 ### Fly to Given Coordinate 
 By knowing the ID, and the coordinates of the destination, you can program Tello to fly directly to it. Here we use a slightly different version of flyLine(x: Int, y: Int, z: Int, id:int). by giving the ID in the end, Tello will fly in the Mission Pad's coordinate system, insteed of flying in its own coordinates. Without a Mission Pad under it, Tello's current coordinate will always reset to 0 when it's hovering.
 
-Tips
-1.	Fly a straight line to point (x:30, y:0, z:100, id:Int). Remember to use the ID of the Mission Pad.
+Tips: Fly a straight line to point (x:30, y:0, z:100, id:Int). Remember to use the ID of the Mission Pad.
