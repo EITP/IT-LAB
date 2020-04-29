@@ -11,11 +11,6 @@ Like a camera, Tello downward positioning sensor has a limited sensing range. Wh
 
 To get the best recognition result of the Mission Pad, It is recommended to fly Tello with a height range from 20cm to 100cm, and within a horizontal square above the Mission Pad, with a side length of 60 cm
 
-### Explore the Standard Library
-Experiment with Swift standard library types and learn high-level concepts using visualizations and practical examples. Learn how the Swift standard library uses protocols and generics to express powerful constraints. See the link below to get started.
-
-[Swift playground](https://swift.org/)
-
 
 ## Tutorial 
 
