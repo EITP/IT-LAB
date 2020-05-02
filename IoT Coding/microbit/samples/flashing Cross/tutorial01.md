@@ -28,6 +28,9 @@ Https://makecode.microbit.org/#
 ### Quick Try
 You can download the micro:bit-Flashing-Cross.hex file from source folder and put it directly to your micro:bit Chip for trial.
 
+### Video Playlist
+https://www.youtube.com/watch?v=Pmts_y2CsUk&list=PL7dtPnQuxetKLwHRYwa8BuQSvplpDu_5p&index=3&t=0s
+
 ### Reference
 https://microbit.org/hk/code/
 https://makecode.microbit.org/
