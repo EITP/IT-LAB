@@ -18,7 +18,7 @@ Micro-USB Cable (Connect it to computer and micro:bit)
 ### Use Blockly Steps
 1.	Open the browser and go to online editor program page at URL below
 Https://makecode.microbit.org/# 
-2.	Go to Input section, drag a “shake Block” to run code when you shake the mirco:bit.
+2.	Go to Input section, drag a “shake Block” to run code when you shake the micro:bit.
 3.	Go to Variable section, create a new variable call “hand”. You will see a “set hand to” variable block, drag it and place in to Shake Block event.
 4.	Go to Math Section, drag a “pick random” block into “set hand to” event and change the numbers from 1 to 3.
 5.	Go to Logic section, drag the “set if then” block and add under the “pick random and set hand to” event. Add “Boolean number block” from logic section into “set if then” event and add a “hand” block from variable in “Boolean number block”.
