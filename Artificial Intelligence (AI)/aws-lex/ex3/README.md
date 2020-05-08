@@ -8,11 +8,11 @@ Now suppose that the user continues to book a car. Using information that the us
 
 In this example, we use the following session attributes. Only the client and the Lambda function can set and update session attributes. Amazon Lex only passes these between the client and the Lambda function. Amazon Lex doesn't maintain or modify any session attributes.
 
-+ `currentReservation` ¡V Contains slot data for an in-progress reservation and other relevant information.
++ `currentReservation` â€“ Contains slot data for an in-progress reservation and other relevant information.
 
-+ `lastConfirmedReservation` ¡V Contains similar information for a previous intent, if any. For example, if the user booked a hotel and then is in process of booking a car, this session attribute stores slot data for the previous BookHotel intent.
++ `lastConfirmedReservation` â€“ Contains similar information for a previous intent, if any. For example, if the user booked a hotel and then is in process of booking a car, this session attribute stores slot data for the previous BookHotel intent.
 
-+ `confirmationContext` ¡V The Lambda function sets this to `AutoPopulate` when it prepopulates some of the slot data based on slot data from the previous reservation (if there is one). This enables cross-intent information sharing. For example, if the user previously booked a hotel and now wants to book a car, Amazon Lex can prompt the user to confirm (or deny) that the car is being booked for the same city and dates as their hotel reservation
++ `confirmationContext` â€“ The Lambda function sets this to `AutoPopulate` when it prepopulates some of the slot data based on slot data from the previous reservation (if there is one). This enables cross-intent information sharing. For example, if the user previously booked a hotel and now wants to book a car, Amazon Lex can prompt the user to confirm (or deny) that the car is being booked for the same city and dates as their hotel reservation
 
 In this exercise you use blueprints to create an Amazon Lex bot and a Lambda function.
 
