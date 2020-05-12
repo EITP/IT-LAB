@@ -16,5 +16,8 @@ In this example, we use the following session attributes. Only the client and th
 
 In this exercise you use blueprints to create an Amazon Lex bot and a Lambda function.
 
+**Video Reference**  
+https://www.youtube.com/playlist?list=PL7dtPnQuxetLDXL13ucdD_KTnfXqEE4K3
+
 **Next Step**  
 [Step 1: Review the Blueprints Used in this Exercise](ex3-step1.md)
