@@ -16,7 +16,7 @@ In this section, you update the configurations of both the BookCar and BookHotel
       + In **Fulfillment**, choose **AWS Lambda function**.
       + Choose your Lambda function from the list.
 
-   1. Choose **Save**.
+   1. Choose **Save Intent**.
 
 1. On the **Editor** tab, choose the BookCar intent. Follow the preceding step to add your Lambda function as validation and fulfillment code hook.
 
