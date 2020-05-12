@@ -32,5 +32,9 @@ In this section, you create an Amazon Lex bot (BookTrip).
 
    In this next section, you create a Lambda function to do some of the user data validation, and initialization using cross-intent information sharing via session attributes. Then you update the intent configuration by adding the Lambda function as code hook to perform initialization/validation of user input and fulfill intent.
 
+  
+**Video Reference**  
+https://www.youtube.com/watch?v=3NHAIlRPLGE
+
 **Next Step**  
 [Step 3: Create a Lambda function](ex3-step3.md)
