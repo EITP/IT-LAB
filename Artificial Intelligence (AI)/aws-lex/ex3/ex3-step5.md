@@ -71,3 +71,6 @@ You can follow below steps to import the bot to your Amazon Lex for further deve
 1. Choose **Build** and test the bot.
 
 This session demonstrated how to capture alphanumeric values using the `AMAZON.AlphaNumeric` slot type. You can further restrict the slot values captured to a fixed format by providing a regular expression. For more information please refer to the [Built-in Slot Types](https://docs.aws.amazon.com/lex/latest/dg/howitworks-builtins-slots.html).
+
+**Video Reference**  
+https://www.youtube.com/watch?v=UXGsJ0wzz3s
