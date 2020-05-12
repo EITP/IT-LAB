@@ -22,11 +22,61 @@ This Lambda function is written in Python.
 
    1. In the **Event name** field, enter a name for the event ([`BookHotelTest`](../source/lex-book-hotel-test.json)).
 
+   ```
+   {
+     "messageVersion": "1.0",
+     "invocationSource": "DialogCodeHook",
+     "userId": "John",
+     "sessionAttributes": {},
+     "bot": {
+       "name": "BookTrip",
+       "alias": "$LATEST",
+       "version": "$LATEST"
+     },
+     "outputDialogMode": "Text",
+     "currentIntent": {
+       "name": "BookHotel",
+       "slots": {
+         "Location": "Chicago",
+         "CheckInDate": "2030-11-08",
+         "Nights": 4,
+         "RoomType": "queen"
+       },
+       "confirmationStatus": "None"
+     }
+   }
+   ```
    1. Choose **Create**.
 
    1. Verify that the Lambda function successfully executed. The response in this case matches the Amazon Lex response model.
 
    1. Repeat the step. This time you choose the **Amazon Lex Book Car** from the **Event template** list, and named [**BookCarTest**](../source/lex-book-car-test.json). The Lambda function processes the car reservation.
+   
+   ```
+   {
+     "messageVersion": "1.0",
+     "invocationSource": "DialogCodeHook",
+     "userId": "John",
+     "sessionAttributes": {},
+     "bot": {
+       "name": "BookTrip",
+       "alias": "$LATEST",
+       "version": "$LATEST"
+     },
+     "outputDialogMode": "Text",
+     "currentIntent": {
+       "name": "BookCar",
+       "slots": {
+         "PickUpCity": "Chicago",
+         "PickUpDate": "2030-11-08",
+         "ReturnDate": "2030-11-08",
+         "CarType": "economy",
+         "DriverAge": 21
+       },
+       "confirmationStatus": "None"
+     }
+   }
+   ```
 
 **Next Step**  
 [Step 4: Add the Lambda Function as a Code Hook](ex3-step4.md)
