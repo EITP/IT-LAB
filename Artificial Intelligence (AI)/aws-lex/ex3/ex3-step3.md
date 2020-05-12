@@ -82,5 +82,9 @@ This Lambda function is written in Python.
    }
    ```
 
+  
+**Video Referenece**  
+https://www.youtube.com/watch?v=-68T9hI96CU
+  
 **Next Step**  
 [Step 4: Add the Lambda Function as a Code Hook](ex3-step4.md)
