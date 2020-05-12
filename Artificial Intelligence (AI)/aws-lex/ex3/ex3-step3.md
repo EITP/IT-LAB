@@ -28,8 +28,8 @@ This Lambda function is written in Python.
 
    1. Repeat the step. This time you choose the **Amazon Lex Book Car** from the **Event template** list, and named [**BookCarTest**](../source/lex-book-car-test.json). The Lambda function processes the car reservation.
    
-   
-   **BookHotelTest**
+     
+**BookHotelTest**
    ```
    {
      "messageVersion": "1.0",
@@ -54,8 +54,8 @@ This Lambda function is written in Python.
      }
    }
    ```
-   
-   **BookCarTest**
+     
+ **BookCarTest**
    ```
    {
      "messageVersion": "1.0",
