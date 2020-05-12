@@ -83,7 +83,7 @@ This Lambda function is written in Python.
    ```
 
   
-**Video Referenece**  
+**Video Reference**  
 https://www.youtube.com/watch?v=-68T9hI96CU
   
 **Next Step**  
