@@ -1,0 +1,4 @@
+MuseIoT.initializeWifi()
+MuseIoT.setWifi("MB", "Mb$XXXXX")
+basic.pause(8000)
+MuseIoT.startWebServer()
