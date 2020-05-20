@@ -1,5 +1,5 @@
 
-#micro:bit tutorial – Walk-Counter
+# micro:bit tutorial – Walk-Counter
 
 ### Learning target
 
