@@ -17,7 +17,7 @@
   "z1", "z2" = -500-500
   "Speed" = 10-60
   If the arc radius is not within a range of 0.5-10 meters, it will respond with an error.
-  jump x y z speed yaw mid1 mid2 Fly to coordinates "x", "y", and "z" of Mission Pad 1 after recognizing, and recognize coordinates 0, 0, "z" of Mission Pad 2 and rotate to the yaw value after hovering at the coordinates
+  jump x y z speed yaw mid1 mid2 Fly to coordinates "x", "y", and "z" of Mission Pad 1 after recognizing, and recognize coordinates 0, 0, "z" of Mission Pad 2 and rotate to the yaw value after hovering at the coordinates ok /error
    "mid" = m1-m8
   "x" = -500-500
   "y" = -500-500
