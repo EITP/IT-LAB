@@ -20,5 +20,7 @@ In order to work, the Mission Pad requires a Tello EDU with SDK 2.0
 3.  Place the aircraft in the center of the Mission Pad and use the "mdirection x" command to enable forward or downward camera detection.
 4.  Use the "takeoff" command to takeoff the Tello EDU and hover in place. Use a command with "mid: to recognize and fly to a Mission Pad
 
+Example: curve 100 100 100 500 500 500 40 m2
+After enabling mission pad detection, the Tell EDU detects the Mission Pad marked 2. If the Mission Pad is recongnized successfully, the aircraft flies at a speed of 40 cm/s in a curve to the coordinates(100, 100, 100), and the second coordinates(500, 500,500). If the Mission Pad is not recognized, the aircraft hoves in peace and an "error" message is received on the PC, Mac, or mobile device.
 
-Remark: 
+The curve is determined by three points. In this example they are the aircraft's current position, the first coordinates(100, 100, 100), and the second coordinates (500. 500, 500). If those three points are on a straight line or they do not create a circle with a radius within 0.5 m to 10 m, then the aircraft hovers in place and an "error" message is received on the PC, Mac, or mobile device.
