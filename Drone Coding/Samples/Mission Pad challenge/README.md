@@ -24,3 +24,7 @@ Example: curve 100 100 100 500 500 500 40 m2
 After enabling mission pad detection, the Tell EDU detects the Mission Pad marked 2. If the Mission Pad is recongnized successfully, the aircraft flies at a speed of 40 cm/s in a curve to the coordinates(100, 100, 100), and the second coordinates(500, 500,500). If the Mission Pad is not recognized, the aircraft hoves in peace and an "error" message is received on the PC, Mac, or mobile device.
 
 The curve is determined by three points. In this example they are the aircraft's current position, the first coordinates(100, 100, 100), and the second coordinates (500. 500, 500). If those three points are on a straight line or they do not create a circle with a radius within 0.5 m to 10 m, then the aircraft hovers in place and an "error" message is received on the PC, Mac, or mobile device.
+
+
+Example: jump 100 100 100 40 100 m1 m2
+After enabling mission pad detection, the Tello EDU detects the Mission Pad marked 1. If the Mission Pad is recognized successfully, the aircraft flies at a speed of 40 cm/s to the coordinates (100, 100, 100) and hovers in place. Next, the Tello EDU detects the Mission Pad marked 2 and rotates 100 degree. If either of the pads are not recognized, the aircraft hovers in place and an "error" message is received on the PC, Mac, or mobile device.
