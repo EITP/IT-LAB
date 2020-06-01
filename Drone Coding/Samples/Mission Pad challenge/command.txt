@@ -1,5 +1,5 @@
-| Command | Descriptions           | Response  |
-| ------- | -------------          | --------- |
+| Command  Descriptions           Response  |
+
 | mon     Enable mission pad detection (both forward and downward detection are enabled)  ok /error
 | moff    Disable mission pad detection ok /error
 | mdirection x "x"=0/1/2 ok /error
@@ -13,4 +13,11 @@
   "z" = -500-500
   "Speed" = 10-100(cm/s)
 | curve x1 y1 z1 x2 y2 z2 speed mid Fly at a curve according to the two given coordinates of the Mission Pad ID at "Speed" (cm/s) ok /error
+  "x1", "x2" = -500-500
+  "y1", "y2" = -500-500
+  "z1", "z2" = -500-500
+  "Speed" = 10-60
+  If the arc radius is not within a range of 0.5-10 meters, it will respond with an error.
+  
+  
 
