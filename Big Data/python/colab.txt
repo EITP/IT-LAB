@@ -1,0 +1,5 @@
+https://www.geeksforgeeks.org/how-to-use-google-colab/
+https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c
+https://mattwang44.github.io/en/articles/colab/
+https://medium.com/@ericsk/%E9%80%8F%E9%81%8E-google-colaboratory-%E5%AD%B8%E7%BF%92%E4%BD%BF%E7%94%A8-python-%E5%81%9A%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AD%89%E7%A7%91%E5%AD%B8%E8%A8%88%E7%AE%97-9f92c7bb1f50
+https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d
