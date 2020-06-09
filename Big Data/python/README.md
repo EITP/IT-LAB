@@ -14,4 +14,6 @@ Below examples are designed for students to get familiar with Python, simply sig
 ### Reference  
 For more information about Python, please feel free to visit the following links:  
 https://www.python.org/  
-https://docs.python.org/3/
+https://docs.python.org/3/  
+https://colab.research.google.com/notebooks/intro.ipynb  
+https://research.google.com/colaboratory/faq.html
