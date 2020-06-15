@@ -1,0 +1,11 @@
+input.onButtonPressed(Button.A, function () {
+    MuseIoT.sendThingspeak(
+    "63JQEDC5RJ5TXNI2",
+    0,
+    50,
+    0
+    )
+})
+MuseIoT.initializeWifi()
+MuseIoT.setWifi("MB", "Mb$12345")
+basic.pause(8000)
