@@ -35,6 +35,7 @@ You have built and tested your bots in the previous exercises. It is time for yo
 ## Test your Chatbot by Static HTML Page  
   - Download the [HTML file](../source/aws-lex-template.html) and run it in your browser.
   - Change the values of `region`, `IdentityPoolId`, `botName` and placeholder of `wisdom`
+  - For the latest AWS SDK, please refer to [AWS SDK for JavaScript](https://github.com/aws/aws-sdk-js).
 
   ```
   <!DOCTYPE html>
