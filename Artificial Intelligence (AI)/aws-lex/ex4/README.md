@@ -307,6 +307,6 @@ The HTML code below is an illustration of directly loading the chatbot UI librar
   
   
 ***Video Reference***  
-[Introduction to Amazon Cognito](https://youtu.be/abTy-Yyo6lI)
-[Set up Amazon Cognito](https://youtu.be/f9gXXJIfzLg)
+[Introduction to Amazon Cognito](https://youtu.be/abTy-Yyo6lI)  
+[Set up Amazon Cognito](https://youtu.be/f9gXXJIfzLg)  
 [Test Your Chatbot](https://youtu.be/48w3NeYb0ck)
