@@ -118,3 +118,6 @@ print(s.replace('l', '(ell)'))  # Replace all instances of one substring with an
                                 # prints "he(ell)(ell)o"
 print('  world '.strip())  # Strip leading and trailing whitespace; prints "world"
 ```
+
+***Video Reference***  
+[https://youtu.be/bbcc20-Bi-k](https://youtu.be/bbcc20-Bi-k)
