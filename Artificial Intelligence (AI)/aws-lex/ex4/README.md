@@ -42,7 +42,7 @@ You have built and tested your bots in the previous exercises. It is time for yo
   <html>
     <head>
       <title>Amazon Lex for JavaScript - Sample Application</title>
-      <script src="https://sdk.amazonaws.com/js/aws-sdk-2.661.0.min.js"></script>
+      <script src="https://sdk.amazonaws.com/js/aws-sdk-2.700.0.min.js"></script>
       <style language="text/css">
         input#wisdom {
           padding: 4px;
@@ -308,3 +308,7 @@ The HTML code below is an illustration of directly loading the chatbot UI librar
 ![](../images/ex4-step3.gif)
   
   For more information, please refer to [Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui).
+  
+  
+***Video Reference***
+[https://youtu.be/f9gXXJIfzLg](https://youtu.be/f9gXXJIfzLg)
