@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Amazon Lex for JavaScript - Sample Application</title>
-    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.661.0.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.700.0.min.js"></script>
     <style language="text/css">
       input#wisdom {
         padding: 4px;
@@ -67,7 +67,7 @@
       // Initialize the Amazon Cognito credentials provider
       AWS.config.region = 'ap-southeast-2'; // Region
       AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-          IdentityPoolId: 'ap-southeast-2:6ce36b74-9574-457c-a74e-ef6bad4c0d70',
+          IdentityPoolId: 'ap-southeast-2:9d0c001c-a288-48ff-99dc-085d10b408de',
       });
 
       var lexruntime = new AWS.LexRuntime();
