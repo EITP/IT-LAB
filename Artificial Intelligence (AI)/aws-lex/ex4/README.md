@@ -115,7 +115,6 @@ You have built and tested your bots in the previous exercises. It is time for yo
         var sessionAttributes = {};
 
         function pushChat() {
-
           // if there is text to be sent...
           var wisdomText = document.getElementById('wisdom');
           if (wisdomText && wisdomText.value && wisdomText.value.trim().length > 0) {
@@ -155,7 +154,6 @@ You have built and tested your bots in the previous exercises. It is time for yo
         }
 
         function showRequest(daText) {
-
           var conversationDiv = document.getElementById('conversation');
           var requestPara = document.createElement("P");
           requestPara.className = 'userRequest';
@@ -165,7 +163,6 @@ You have built and tested your bots in the previous exercises. It is time for yo
         }
 
         function showError(daText) {
-
           var conversationDiv = document.getElementById('conversation');
           var errorPara = document.createElement("P");
           errorPara.className = 'lexError';
@@ -175,7 +172,6 @@ You have built and tested your bots in the previous exercises. It is time for yo
         }
 
         function showResponse(lexResponse) {
-
           var conversationDiv = document.getElementById('conversation');
           var responsePara = document.createElement("P");
           responsePara.className = 'lexResponse';
@@ -311,4 +307,6 @@ The HTML code below is an illustration of directly loading the chatbot UI librar
   
   
 ***Video Reference***  
-[https://youtu.be/f9gXXJIfzLg](https://youtu.be/f9gXXJIfzLg)
+[Introduction to Amazon Cognito](https://youtu.be/abTy-Yyo6lI)
+[Set up Amazon Cognito](https://youtu.be/f9gXXJIfzLg)
+[Test Your Chatbot](https://youtu.be/48w3NeYb0ck)
