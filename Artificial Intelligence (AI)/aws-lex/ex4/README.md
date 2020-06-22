@@ -266,7 +266,7 @@ The HTML code below is an illustration of directly loading the chatbot UI librar
       <script src="https://unpkg.com/vue@2.5.3"></script>
       <script src="https://unpkg.com/vuex@3.0.1"></script>
       <script src="https://unpkg.com/vuetify@0.16.9"></script>    
-      <script src="https://sdk.amazonaws.com/js/aws-sdk-2.661.0.min.js"></script>
+      <script src="https://sdk.amazonaws.com/js/aws-sdk-2.700.0.min.js"></script>
 
       <!-- LexWebUi Library from dist directory -->
       <script src="./lex-web-ui.js"></script>
@@ -310,5 +310,5 @@ The HTML code below is an illustration of directly loading the chatbot UI librar
   For more information, please refer to [Sample Amazon Lex Web Interface](https://github.com/aws-samples/aws-lex-web-ui).
   
   
-***Video Reference***
+***Video Reference***  
 [https://youtu.be/f9gXXJIfzLg](https://youtu.be/f9gXXJIfzLg)
