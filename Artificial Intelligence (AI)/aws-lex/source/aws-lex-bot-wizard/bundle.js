@@ -14,7 +14,7 @@ var chatbot = {
   lexUserId: 'lex-web-' + Date.now(),
   sessionAttributes: {},
   //aws_sdk_path: 'https://sdk.amazonaws.com/js/aws-sdk-2.340.0.min.js'
-  aws_sdk_path: 'https://sdk.amazonaws.com/js/aws-sdk-2.661.0.min.js'
+  aws_sdk_path: 'https://sdk.amazonaws.com/js/aws-sdk-2.700.0.min.js'
 };
 var jq; // Get selector only inside root element
 
