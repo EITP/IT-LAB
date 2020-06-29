@@ -47,6 +47,8 @@ Registration, create channel and obtain API key Steps:
 Quick Try
 - You can download the microbit-MBwithTS.hex file from source folder and put it directly to your Micro:bit Chip for trial.
 
+#### Video 
+https://www.youtube.com/watch?v=ZA372OsW83Y&list=PL7dtPnQuxetKLwHRYwa8BuQSvplpDu_5p&index=6&t=0s
 
 #### Reference 
 https://microbit.org/hk/code/ https://makecode.microbit.org/ https://thingspeak.com/
