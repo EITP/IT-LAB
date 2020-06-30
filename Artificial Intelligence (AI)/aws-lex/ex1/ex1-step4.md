@@ -8,12 +8,12 @@ Each utterance that you add provides Amazon Lex with more information about how 
 
 **To add an utterance**
 
-1. Add the utterance "I want flowers" to the intent by typing it in the **Sample utterances** section of the intent editor, and then clicking the plus icon next to the new utterance.
+1. Add the utterance "I want flowers" to the intent by typing it in the **Sample utterances** section of the intent editor, and then clicking the plus icon next to the new utterance.  
 ![Intent editor with the new utterance.](../images/gs1-130.png)
 
 1.  Build your bot to pick up the change. Choose **Build**, and then choose **Build** again.
 
-1. Test your bot to confirm that it recognized the new utterance . In the test window, type "I want to order flowers." Amazon Lex recognizes the phrase and responds with "What type of flowers would you like to order?".
+1. Test your bot to confirm that it recognized the new utterance . In the test window, type "I want to order flowers." Amazon Lex recognizes the phrase and responds with "What type of flowers would you like to order?".  
 ![The intent editor recognizes the new utterance.](../images/gs1-140.png)
 
 **Video Reference**  
