@@ -18,13 +18,14 @@ class ViewController: UIViewController {
             break
         case .command:
             tello.takeOff()
+            getPadID()
+            transit(x: 100, y: 0, z: 100, pad1: 1, pad2: 2)
             var padId = getPadID()
+            flyLine(x: -30, y: 30, z: 100, pad: padId)
             flyLine(x: -30, y: -30, z: 100, pad: padId)
             flyLine(x: -30, y: -30, z: 100, pad: padId)
-            flyLine(x: -30, y: -30, z: 100, pad: padId)
-            flyLine(x: -30, y: -30, z: 100, pad: padId)
+            flyLine(x: -30, y: 30, z: 100, pad: padId)
             
-            flyLine(x: 0, y: 0, z: 100, pad: padId)
             land()
             
             break
