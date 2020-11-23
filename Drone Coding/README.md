@@ -2,7 +2,7 @@
 This is a collection of Swift-based and Python-based sample code that interact with the TELLO EDU which is a programmable drone for education. 
 
 This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and Python2.7. 
-
+ 
 ### Project Description
 - Flying Tello EDU Autonomously
 
