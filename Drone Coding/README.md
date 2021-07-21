@@ -10,7 +10,7 @@ This toolkit contains sample programs based on Swift Playgrounds, TELLO SDK and 
 **Aircraft**
 - Weight: 87g (Propellers and Battery Included)
 - Dimensions: 98×92.5×41 mm
-- Propeller: 3 inches
+- Propeller: 3 inches 
 - Built-in Functions: Range Finder, Barometer, LED, Vision System, 2.4 GHz 802.11n Wi-Fi, 720p Live View
 - Port: Micro USB Charging Port
 
