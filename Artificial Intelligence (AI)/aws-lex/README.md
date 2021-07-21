@@ -18,7 +18,7 @@ Below examples are designed for students to get familiar with Amazon Lex, simply
 ### [3 : Create a Multiple Intents Supported Bot (Book Trip)](./ex3/README.md)
 ### [4 : Integrate Your Amazon Lex Bot On The Web](./ex4/README.md)
 ### [5 : Create a Bot with Dynamic Response Card (Schedule Appointment)](./ex5/README.md)
-
+ 
 ### Restrictions
 Q: How many languages are supported on Amazon Lex?  
 A: Currently, Amazon Lex supports **US English**.
