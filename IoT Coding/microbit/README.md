@@ -15,7 +15,7 @@ Before design your own micro: bit coding, you have to establish connection via U
 ### Micro: bit Chip Specification
 
 Micro: bit is microcomputer board for STEM education. The 4x5 cm small circuit board is equipped with 25 LEDs, 2 buttons, 3 sensors of light/ temperature/ acceleration, BLE Bluetooth, and 25 I/O interface.
-
+ 
 ### How to use 
 
 The micro: bit program can adopt Blocky programming method, that is, a program syntax or element is expressed as different shapes and sizes of blocks, and then the concept of stacking blocks is used to combine various program logics.
