@@ -3,7 +3,7 @@ Blockly.Blocks['Right_move'] = {
     this.jsonInit({
       type: "Right_move",
       message0: "%{BKY_RIGHT_MOVE}",
-      previousStatement: null,
+      previousStatement: null, 
       nextStatement: null,
       colour: "#48BCBC",
       toolip: "",
